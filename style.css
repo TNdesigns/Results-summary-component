@@ -1,0 +1,375 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk&display=swap');
+
+.rsc-bx2{
+    height:420px;
+    width:320px;
+    left:655px;
+    background-color:rgb(242, 255, 255);
+    position: absolute;
+    /*left:340px;*/
+    top:150px;
+    /*z-index: 2;*/
+    border-top-right-radius:20px;
+    border-bottom-right-radius:20px;
+}
+.rsc-bx3{
+    height:420px;
+    width:320px;
+    background-color:hsl(241, 100%, 63%);
+    left:-300px;
+    position: relative;
+    /*left:317px;*/
+    top:0px;
+    border-radius: 20px;
+    /*border-top-right-radius:20px;
+    border-bottom-right-radius:20px;*/
+    /*z-index: 1;*/
+}
+.yr2{
+    position: relative;
+    top:-390px;
+    left:-174px;
+    color:rgba(255, 255, 255, 0.836);
+}
+.color{
+    background-color:rgba(78, 33, 202, 0.526);
+    border-radius: 50%;
+    height:170px;
+    width:170px;
+    position: relative;
+    left:-220px;
+    top:-350px;
+    color:white;
+    font-family:'hanken Grotesk';
+}
+h1{
+    position: absolute;
+    left:60px;
+    top:30px;
+    font-size:50px;
+    font-family: 'Hanken Grotesk';
+}
+.color p{
+    position: relative;
+    top:100px;
+    left:65px;
+    color:rgba(255, 255, 255, 0.582);
+}
+h2{
+    position: relative;
+    top:-330px;
+    left:-163.5px;
+    color:white;
+}
+.desc{
+    position: relative;
+    top:-310px;
+    left:-290px;
+    margin-left:60px;
+    margin-right:60px;
+    color:rgba(193, 193, 193, 0.773);
+    text-align:center;
+}
+.smry{
+    position: relative;
+    top:-663px;
+    left:50px;
+    font-size: 20px;
+}
+.p1,.p2,.p3,.p4{
+    position:relative;
+    top:-600px;
+    left:90px;
+    line-height:20px;
+}
+.red{
+    height:40px;
+    width:240px;
+    background-color: hsla(0, 100%, 67%, 0.147);
+    position: relative;
+    top:-630px;
+    left:50px;
+    border-radius: 10px;
+}
+.p1{
+    color:red;
+    position: relative;
+    top:-15px;
+    left:40px;
+}
+.svg1{
+    position: relative;
+    top:9px;
+    left:7px;
+}
+.yellow{
+    height:40px;
+    width:240px;
+    background-color: hsla(39, 100%, 56%, 0.148);
+    position: relative;
+    top:-610px;
+    left:50px;
+    border-radius:10px;
+}
+.p2{
+    color:hsl(39, 100%, 56%);
+    position: relative;
+    top:-15px;
+    left:40px;
+}
+.svg2{
+    position: relative;
+    top:9px;
+    left:7px;
+}
+.aqua{
+    height:40px;
+    width:240px;
+    background-color:hsla(166, 100%, 37%, 0.146);
+    position: relative;
+    top:-590px;
+    left:50px;
+    border-radius: 10px;
+}
+.p3{
+    color:hsl(166, 100%, 37%);
+    position: relative;
+    top:-15px;
+    left:40px;
+}
+.svg3{
+    position: relative;
+    top:9px;
+    left:7px;
+}
+.blue{
+    height:40px;
+    width:240px;
+    background-color:hsla(234, 85%, 45%, 0.151);
+    position: relative;
+    top:-570px;
+    left:50px;
+    border-radius: 10px;
+}
+.p4{
+    color:hsl(234, 85%, 45%);
+    position: relative;
+    top:-15px;
+    left:40px;
+}
+.svg4{
+    position: relative;
+    top:9px;
+    left:7px;
+}
+h5{
+    position: relative;
+    top:-32px;
+    left:175px;
+    font-size: 15px;
+    font-weight: 400;
+    color:rgba(0, 0, 0, 0.501);
+}
+button{
+    position: relative;
+    top:-540px;
+    left:50px;
+    width:240px;
+    height:50px;
+    border-radius: 25px;
+    border:none;
+    background-color:hsl(241, 100%, 63%);
+    color:white;
+}
+button:hover{
+    background-color:hsl(241, 81%, 54%);
+    cursor:pointer;
+}
+
+
+@media screen and (max-width:420px){
+
+    @import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk&display=swap');
+    html,body{
+        overflow-x:hidden;
+        height:230vw;
+    }
+    .rsc-bx3{
+        display: none;
+    }
+    .rsc-bx{
+        position: static;
+        height:90vw;
+        width:100vw;
+        background-color:hsl(241, 100%, 63%);
+        border-bottom-left-radius:10vw;
+        border-bottom-right-radius:10vw;
+        border-top-right-radius: 0vw; 
+    }
+    .yr{
+        font-size: 22px;
+        font-family: 'hanken Grotesk';
+        margin-left:36vw;
+        position: relative;
+        left:0vw;
+        top:5vw;
+        color:rgba(193, 193, 193, 0.773);
+    }
+    h1{
+        position: absolute;
+        left:9vw;
+        top:6vw;
+        font-size:18vw;
+        font-family: 'Hanken Grotesk';
+    }
+    .color{
+        background-color:rgba(78, 33, 202, 0.526);
+        border-radius: 50%;
+        height:36vw;
+        width:36vw;
+        position: relative;
+        left:32vw;
+        top:13vw;
+        color:white;
+        font-family:'hanken Grotesk';
+    }
+    .color p{
+        position: relative;
+        top:28vw;
+        left:13vw;
+        color:rgba(255, 255, 255, 0.582);
+    }
+    h2{
+        position: relative;
+        top:20vw;
+        left:42vw;
+        color:white;
+    }
+    .desc{
+        position: relative;
+        top:25vw;
+        left:0vw;
+        margin-left:20vw;
+        margin-right:20vw;
+        color:rgba(193, 193, 193, 0.773);
+    }
+    .smry{
+        position: relative;
+        top:40vw;
+        left:10vw;
+        font-size: 20px;
+    }
+    .p1,.p2,.p3,.p4{
+        position:relative;
+        top:45vw;
+        left:20vw;
+        line-height:20vw;
+    }
+    .red{
+        height:13vw;
+        width:80vw;
+        background-color: hsla(0, 100%, 67%, 0.147);
+        position: relative;
+        top:45vw;
+        left:10vw;
+        border-radius: 3vw;
+    }
+    .p1{
+        color:red;
+        position: relative;
+        top:-9vw;
+        left:10vw;
+    }
+    .yellow{
+        height:13vw;
+        width:80vw;
+        background-color: hsla(39, 100%, 56%, 0.148);
+        position: relative;
+        top:55vw;
+        left:10vw;
+        border-radius: 3vw;
+    }
+    .p2{
+        color:hsl(39, 100%, 56%);
+        position: relative;
+        top:-9vw;
+        left:10vw;
+    }
+    .aqua{
+        height:13vw;
+        width:80vw;
+        background-color:hsla(166, 100%, 37%, 0.146);
+        position: relative;
+        top:65vw;
+        left:10vw;
+        border-radius: 3vw;
+    }
+    .p3{
+        color:hsl(166, 100%, 37%);
+        position: relative;
+        top:-9vw;
+        left:10vw;
+    }
+    .blue{
+        height:13vw;
+        width:80vw;
+        background-color:hsla(234, 85%, 45%, 0.151);
+        position: relative;
+        top:75vw;
+        left:10vw;
+        border-radius: 3vw;
+    }
+    .p4{
+        color:hsl(234, 85%, 45%);
+        position: relative;
+        top:-9vw;
+        left:10vw;
+    }
+    h5{
+        position: relative;
+        top:-22vw;
+        left:58vw;
+        font-size: 20px;
+        font-weight: 400;
+        color:rgba(0, 0, 0, 0.501);
+    }
+    button{
+        position: relative;
+        top:82vw;
+        left:10vw;
+        width:80vw;
+        height:15vw;
+        border-radius: 10vw;
+        border:none;
+        background-color: hsl(224, 30%, 27%);
+        color:white;
+    }
+    .svg1{
+        position: relative;
+        top:4vw;
+        left:2vw;
+    }
+    .svg2{
+        position: relative;
+        top:4vw;
+        left:2vw;
+    }
+    .svg3{
+        position: relative;
+        top:4vw;
+        left:2vw;
+    }
+    .svg4{
+        position: relative;
+        top:4vw;
+        left:2vw;
+    }
+    button:active{
+        cursor: pointer;
+        background-color:hsl(224, 45%, 45%);
+    }
+}
